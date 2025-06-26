@@ -6,9 +6,37 @@
       "descricao": "Lugares para fazer compras e passear."
     },
     {
-      "nome": "Restaurantes Atualizado",
-      "descricao": "Lugares para alimentação.",
-      "id": "cb02"
+      "id": "508d",
+      "nome": "Praias",
+      "descricao": "Lugares para tomar banho com a família."
+    },
+    {
+      "id": "4605",
+      "nome": "Bares",
+      "descricao": "Lugares para socializar e se divertir."
+    },
+    {
+      "id": "385c",
+      "nome": "Parques",
+      "descricao": "Lugares para passear com a família e os amigos."
+    }
+  ],
+  "lugares": [
+    {
+      "id": "21eb",
+      "nome": "Beira Mar",
+      "categoria": "Praias",
+      "localizacao": "Ceará",
+      "urlFoto": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/09/Hotel-beira-mar-fortaleza-capa.jpg",
+      "avaliacao": "5"
+    },
+    {
+      "id": "4368",
+      "nome": "Parque Rachel de Queiroz",
+      "categoria": "Parques",
+      "localizacao": "Ceará",
+      "urlFoto": "https://images.adsttc.com/media/images/62d5/5385/2467/e40c/1077/eb99/newsletter/parque-rachel-de-queiroz-architectus-s-s_9.jpg?1658147760",
+      "avaliacao": "4"
     }
   ]
 }
