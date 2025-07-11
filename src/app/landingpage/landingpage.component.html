@@ -1,0 +1,20 @@
+<div class="bg-gradient-to-r from-purple-500 to-purple-700 text-white min-h-screen flex flex-col justify-center items-center">
+    <div class="text-center px-6">
+        <h1 class="text-4xl font-bold mb-4">Bem vindo à sua Lista de lugares favoritos!</h1>
+        <p class="text-lg mb-6">Explore, organize e compartilhe os lugares incríveis que você adora. Tudo em um só lugar.</p>
+    
+        <button (click)="navegar()"
+                *ngIf="isLoggedIn()"
+                class="text-white bg-purple-400 font-semibold py-2 px-8 rounded-full hover:bg-gray-100 hover:text-purple-600 flex space-x-3 items-center">
+            Olá {{ profile?.name }}, clique aqui para aproveitar o site
+        </button>
+        
+        <button (click)="logarComGoogle()"
+                *ngIf="!isLoggedIn()"
+                class="text-purple-700 bg-white font-semibold py-2 px-8 rounded-full hover:bg-gray-200 flex gap-3 items-center">
+            <img width="30px" src="https://cdn3.iconfinder.com/data/icons/logos-brands-3/24/logo_brand_brands_logos_google-512.png"/>
+            Logar com o Google
+        </button>
+    
+    </div>
+</div>
